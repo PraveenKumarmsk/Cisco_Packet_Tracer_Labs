@@ -5,6 +5,8 @@ This project demonstrates the configuration of **Dynamic Host Configuration Prot
 
 The goal is to automate IP address assignment for end devices (PCs and Server) in three different Local Area Networks (LANs) connected via Serial WAN links. The central router (**Router1**) acts as the **DHCP Server** for all three networks, while **Router0** and **Router2** function as DHCP Relay Agents (using the `ip helper-address` command) to forward requests from their respective LANs to the central server.
 
+![Network Topology](https://github.com/PraveenKumarmsk/DHCP-Configuration-Project-Labs/blob/main/DHCP_Lab_SS)
+
 ## 🗺️ Network Topology & Addressing Scheme
 
 ### Routers
