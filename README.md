@@ -1,6 +1,6 @@
 # Cisco_Packet_Tracer_Labs
 Cisco Packet Tracer: DHCP Configuration Project
-https://i.imgur.com/YourImageLinkHere.png
+
 (Note: Replace the link above with the actual image link once you upload your screenshot to GitHub)
 
 📌 Project Overview
