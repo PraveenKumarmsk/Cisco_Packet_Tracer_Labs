@@ -135,40 +135,26 @@ Router(config-router)# network 11.0.0.0 0.0.0.3 area 0
 ```
 ### ✅ Verification
 PC Configuration:
-
 Go to PC0, PC1, PC2, PC3, PC4, PC5 and the Server.
-
 Navigate to Desktop > IP Configuration.
-
 Select DHCP.
-
 Verify that the PCs receive IP addresses in their respective ranges (e.g., PC0 should get 192.168.10.x, PC4 should get 192.168.12.x).
-
 Router Verification:
-
 Run show ip dhcp binding on Router1 to see the list of assigned IP addresses.
-
 Run show ip route on all routers to ensure OSPF has populated the routing tables (look for O entries).
-
 Ping from PC0 to PC4 to verify end-to-end connectivity across the WAN links.
 
 🛠️ Tools Used
 Cisco Packet Tracer
-
 OSPF (Open Shortest Path First) for Routing
-
 Cisco IOS CLI
 
 📂 How to Use
 Clone this repository.
-
 Open the .pkt file in Cisco Packet Tracer.
-
 Review the configurations or use the CLI commands provided above to rebuild the lab from scratch.
 
-text
-
 ### 💡 GitHub Upload Tips:
-*   Save the text above in a file named exactly **`README.md`**.
-*   If you want to add your network topology image to the top of the README, upload your screenshot to the GitHub repository first, click on it, copy the image link, and replace the `![Topology](link)` line (you can add this under the `## 📌 Project Overview` section).
-*   The backticks ` ``` ` used in the code blocks will ensure the Cisco commands display perfectly with syntax highlighting on GitHub.
+* Save the text above in a file named exactly **`README.md`**.
+* If you want to add your network topology image to the top of the README, upload your screenshot to the GitHub repository first, click on it, copy the image link, and replace the `![Topology](link)` line (you can add this under the `## 📌 Project Overview` section).
+* The backticks ` ``` ` used in the code blocks will ensure the Cisco commands display perfectly with syntax highlighting on GitHub.
